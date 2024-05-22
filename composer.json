@@ -1,0 +1,23 @@
+{
+    "name": "kba-team/cake2-plugin-helloworld",
+    "description": "A plugin with a unit test that prints \"Hello World\" HP 2.10 application",
+    "type": "cakephp-plugin",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0, <8.4",
+        "kba-team/cakephp": "^2.11",
+        "composer/installers": "^1.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "installer-name": "HelloWorld"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
